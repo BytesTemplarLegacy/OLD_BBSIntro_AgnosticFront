@@ -1,0 +1,150 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 0057BH 0057CH PROGRAM            CODE
+ 00580H 0633FH 05DC0H PicPak1            CODE
+ 06340H 06373H 00034H UTILS              CODE
+ 06380H 063E3H 00064H CRTASM             CODE
+ 063F0H 0683DH 0044EH GFX                CODE
+ 06840H 06840H 00000H Dos                CODE
+ 06840H 06E9AH 0065BH Crt                CODE
+ 06EA0H 07D1BH 00E7CH System             CODE
+ 07D20H 0837FH 00660H DATA               DATA
+ 08380H 0C37FH 04000H STACK              STACK
+ 0C380H 0C380H 00000H HEAP               HEAP
+
+  Address         Publics by Value
+
+ 0000:0000       SmearIt
+ 0000:00A9       PutSt
+ 0000:0150       InitScroller
+ 0000:0193       UpdateScroller
+ 0000:01F2       Init
+ 0000:036A       DeInit
+ 0000:0454       @
+ 0058:0000       Man1
+ 0058:1F40       Man2
+ 0058:3E80       Card
+ 0634:0000       CursorOff
+ 0634:000A       Pause
+ 0634:001D       @
+ 0638:0000       ReadKey
+ 0638:0005       KeyPressed
+ 0638:0011       TextColor
+ 0638:0032       TextBackground
+ 0638:0053       @
+ 063F:0000       Pal
+ 063F:001B       GetPal
+ 063F:0054       VSinc
+ 063F:0062       Set50
+ 063F:0076       SetPal
+ 063F:00ED       GetTPal
+ 063F:0146       Intense
+ 063F:02E7       Fade2Black
+ 0684:000D       @
+ 0684:017F       TextMode
+ 0684:0197       Window
+ 0684:01D7       ClrScr
+ 0684:01F3       ClrEol
+ 0684:0207       InsLine
+ 0684:020F       DelLine
+ 0684:022F       GotoXY
+ 0684:025B       WhereX
+ 0684:0267       WhereY
+ 0684:0273       TextColor
+ 0684:028F       TextBackground
+ 0684:02A7       LowVideo
+ 0684:02AF       HighVideo
+ 0684:02B7       NormVideo
+ 0684:02BF       Delay
+ 0684:02EF       Sound
+ 0684:031F       NoSound
+ 0684:0327       KeyPressed
+ 0684:033B       ReadKey
+ 0684:035F       AssignCrt
+ 07D2:0002       man
+ 07D2:000A       pitch
+ 07D2:0280       txt
+ 07D2:0380       Locs
+ 07D2:0382       OvrCodeList
+ 07D2:0384       OvrHeapSize
+ 07D2:0386       OvrDebugPtr
+ 07D2:038A       OvrHeapOrg
+ 07D2:038C       OvrHeapPtr
+ 07D2:038E       OvrHeapEnd
+ 07D2:0390       OvrLoadList
+ 07D2:0392       OvrDosHandle
+ 07D2:0394       OvrEmsHandle
+ 07D2:0396       HeapOrg
+ 07D2:039A       HeapPtr
+ 07D2:039E       HeapEnd
+ 07D2:03A2       FreeList
+ 07D2:03A6       FreeZero
+ 07D2:03AA       HeapError
+ 07D2:03AE       ExitProc
+ 07D2:03B2       ExitCode
+ 07D2:03B4       ErrorAddr
+ 07D2:03B8       PrefixSeg
+ 07D2:03BA       StackLimit
+ 07D2:03BC       InOutRes
+ 07D2:03BE       RandSeed
+ 07D2:03C2       SelectorInc
+ 07D2:03C4       Seg0040
+ 07D2:03C6       SegA000
+ 07D2:03C8       SegB000
+ 07D2:03CA       SegB800
+ 07D2:03CC       Test8086
+ 07D2:03CD       Test8087
+ 07D2:03CE       FileMode
+ 07D2:03D2       store
+ 07D2:03D6       ox
+ 07D2:03D8       oy
+ 07D2:03DA       buf
+ 07D2:03DE       curpitch
+ 07D2:03DF       curman
+ 07D2:03E0       curx
+ 07D2:03E1       cury
+ 07D2:03E2       z
+ 07D2:03E3       curpos
+ 07D2:03E4       tcount
+ 07D2:03E6       timerproc
+ 07D2:03EA       OldInt
+ 07D2:03EE       Int09Save
+ 07D2:03F2       timercount
+ 07D2:03F4       TimerInstalled
+ 07D2:03F6       retraces
+ 07D2:03F8       total_retraces
+ 07D2:03FA       at
+ 07D2:03FB       fg
+ 07D2:03FC       bg
+ 07D2:03FE       CheckBreak
+ 07D2:03FF       CheckEOF
+ 07D2:0400       DirectVideo
+ 07D2:0401       CheckSnow
+ 07D2:0402       LastMode
+ 07D2:0404       TextAttr
+ 07D2:0406       WindMin
+ 07D2:0408       WindMax
+ 07D2:0412       Input
+ 07D2:0512       Output
+ 07D2:0612       SaveInt00
+ 07D2:0616       SaveInt02
+ 07D2:061A       SaveInt1B
+ 07D2:061E       SaveInt21
+ 07D2:0622       SaveInt23
+ 07D2:0626       SaveInt24
+ 07D2:062A       SaveInt34
+ 07D2:062E       SaveInt35
+ 07D2:0632       SaveInt36
+ 07D2:0636       SaveInt37
+ 07D2:063A       SaveInt38
+ 07D2:063E       SaveInt39
+ 07D2:0642       SaveInt3A
+ 07D2:0646       SaveInt3B
+ 07D2:064A       SaveInt3C
+ 07D2:064E       SaveInt3D
+ 07D2:0652       SaveInt3E
+ 07D2:0656       SaveInt3F
+ 07D2:065A       SaveInt75
+
+Program entry point at 0000:0454
